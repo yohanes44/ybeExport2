@@ -8,6 +8,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+/* .carousel-item{
+  background-color: #179ca0;
+} */
+
+
+
 body {
   background: #fff;
   color: #666666;
@@ -392,7 +399,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(56, 165, 26, 0.6), rgba(215, 49, 16, 0.6)), url("../img/Home-coffee-ethiopia.jpg") center top no-repeat;
+  background: linear-gradient(45deg, rgba(56, 165, 26, 0.2), rgba(215, 49, 16, 0.2)), url("../img/best/best3.jpg") center top no-repeat;
   background-size: cover;
   position: relative;
 }
