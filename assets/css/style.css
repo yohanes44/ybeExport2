@@ -363,9 +363,9 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 40%;
+  height: 70%;
   background: linear-gradient(45deg, rgba(56, 165, 26, 0.2), rgba(215, 49, 16, 0.2)), url("../img/best/best3.jpg") center top no-repeat;
-  background-size:100%;
+  background-size: cover;
   position: relative;
 }
 
