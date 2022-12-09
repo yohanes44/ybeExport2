@@ -831,8 +831,8 @@ section {
   background: #1dc8cd;
   background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
   background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 #features .title {
@@ -898,8 +898,8 @@ section {
   background: #1dc8cd;
   background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
   background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 #advanced-features .advanced-feature-img-right {
@@ -1009,8 +1009,8 @@ section {
   background: #1dc8cd;
   background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
   background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 #more-features h4 {
@@ -1412,7 +1412,7 @@ section {
   margin: 0 10px -6px 0;
   border: 3px solid #18d26e;
   border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
+  /* -webkit-animation: animate-loading 1s linear infinite; */
   animation: animate-loading 1s linear infinite;
 }
 
@@ -1440,7 +1440,7 @@ section {
   cursor: pointer;
 }
 
-@-webkit-keyframes animate-loading {
+/* @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
   }
@@ -1448,7 +1448,7 @@ section {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 @keyframes animate-loading {
   0% {
