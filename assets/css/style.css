@@ -491,7 +491,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   background:  url("../img/coffeeTypes/cover.jfif") center top no-repeat;
   background-size: cover;
   position: relative;
