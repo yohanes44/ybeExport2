@@ -49,6 +49,15 @@
   width: 100%;
   height: auto;
   opacity: 0.9;
+
+}
+
+.singleSeed{
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 6%;
+  box-shadow: 0 4px 18px 0 rgba(152, 76, 76, 0.2), 0 16px 20px 0 rgba(27, 234, 34, 0.19);
+  
 }
 
 
@@ -62,7 +71,7 @@
 }
 
 
-.imgSeed{
+.imgSeedContainer{
 
   overflow: hidden;
   margin: 0 auto;
@@ -72,12 +81,21 @@
   justify-content: center;
 }
 
-.imgSeed img{
+.imgSeedContainer img{
   width: 100%;
   transition: 0.5s all ease-in-out;
 }
 
-.imgSeed:hover img{
+.imgSeedContainer{
+  height: 100%;
+  margin: 2%;
+  padding: 2%;
+  box-shadow: 0 4px 18px 0 rgba(152, 76, 76, 0.2), 0 16px 20px 0 rgba(27, 234, 34, 0.19);
+  
+}
+
+
+.imgSeedContainer:hover img{
   transform: scale(1.5);
 }
 
@@ -92,6 +110,29 @@
 .seedTypePareagraph{
 
 }
+
+
+/* .pulseImageDiv{
+  border: 2px solid hotpink;
+  width: 30%;
+} */
+
+.imgPulse{
+    height: 150px; 
+    width: 60%; 
+    border-radius: 50%;
+    border: 2px solid green;
+}
+
+.pulseAllText{
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+  border: 2px solid red;
+  width: 70%;
+} 
+
 
 /* 
 
