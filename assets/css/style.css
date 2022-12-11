@@ -105,10 +105,16 @@
   display: flex; 
   justify-content:center; 
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 100%;
+  min-height: 40px;
+  max-height: 40px; 
 }
 
 .seedTypePareagraph{
-
+   min-height: 120px;
+   max-height: 120px; 
+   padding-left: 4%;
+   padding-right: 4%;
 }
 
 
@@ -117,11 +123,49 @@
   width: 30%;
 } */
 
+.pulseImageDiv{
+  border: 2px solid #2e1997;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+/* .imgPulse:hover{
+  transform: scale(1.5);
+
+} */
+
+
+.imgModal{
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  min-height: 300px;
+  margin: auto;
+
+}
+
+.imgPulseContainer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+
 .imgPulse{
-    height: 150px; 
-    width: 60%; 
-    border-radius: 50%;
-    border: 2px solid green;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 170px;
+  min-height: 170px;
+  margin: 2%;
+  display: inline;
+
 }
 
 .pulseAllText{
@@ -129,9 +173,25 @@
   flex-direction: column; 
   align-items: center; 
   justify-content: center;
-  border: 2px solid red;
-  width: 70%;
+  width: 100%;
 } 
+
+.pulseType{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 33px;
+  max-height: 33px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.pulseDetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    max-height: 200px;
+}
 
 
 /* 
