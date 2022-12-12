@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Yibe Coffee Export</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Avilon - v4.8.1
+  * Template URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+
+
+  <style>
+  
+    .seedText{
+
+      font-family:'Courier New',  Courier, monospace; 
+      color: #1de099; 
+      height: 30%;
+     
+      font-weight: bolder; 
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+    }
+
+    .singlePulse{
+      margin: 0%;
+    
+      box-shadow: 1px 14px 4px 1 rgba(0, 0, 0, 0.2), 2 14px 4px 1 rgba(27, 234, 34, 0.19);
+  
+       }
+
+   
+
+   .btnOrder{
+    background-color: #1de099; 
+   }
+
+   .btnDetail{
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .bunaContainer{
+        
+    }
+    .bunaSingle{
+      background-color: rgb(250, 246, 246);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      margin: 2%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    }
+    .bunaParagraph{
+      min-height: 30%; 
+      max-height: 30%; 
+      max-width: 90%; 
+  
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+
+  <header style="background-color: #1de099"  id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div id="logo">
+        <!-- <h1><a href="index.html">Avilon</a></h1> -->
+        <a  href="#hero">
+        <img style="width: 60%; height: 100%; min-width: 200px; min-height: 180px;" src="/assets/img/best/logo1.png" alt="">
+      </a>
+
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt=""></a> -->
+      </div>
+
+
+<!-- <div class="" >
+                
+  <img style="width: 300%; height: 100%; min-width: 70px;" src="/assets/img/best/logo1.png" alt="">
+
+</div> -->
+
+
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#coffees">Coffees</a></li>
+          <li class="dropdown"><a class="nav-link scrollto" href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="#coffees"><span>Coffees</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a class="nav-link scrollto" href="#coffees">Yirgacheffee</a></li>
+                  <li><a class="nav-link scrollto" href="#coffees">Limmu</a></li>
+                  <li><a class="nav-link scrollto" href="#coffees">Sidama</a></li>
+                  <li><a class="nav-link scrollto" href="#coffees">Nekemeti</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="nav-link scrollto" href="#oilseeds"><span>OilSeeds</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a class="nav-link scrollto" href="#seeds">Flax seed</a></li>
+                  <li><a class="nav-link scrollto" href="#seeds">Niger seed</a></li>
+                  <li><a class="nav-link scrollto" href="#seeds">Humera saseme seed</a></li>
+                  <li><a class="nav-link scrollto" href="#seeds">Welega saseme seed</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="nav-link scrollto" href="#pulses"><span>Pulses</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a  class="nav-link scrollto" href="#pulses">soya Beans</a></li>
+                  <li><a  class="nav-link scrollto" href="#pulses">Pinto Beans</a></li>
+                  <li><a  class="nav-link scrollto" href="#pulses">red kidney Beans</a></li>
+                  <li><a  class="nav-link scrollto" href="#pulses">whitepea Beans</a></li>
+                  <li><a  class="nav-link scrollto" href="#pulses"> fabana beans</a></li>
+                  <li><a  class="nav-link scrollto" href="#pulses"> Chickpeas</a></li>
+                  <li><a  class="nav-link scrollto" href="#pulses"> Green Mung Beans</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header>
+  
+  
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+
+    <div class="hero-text" data-aos="zoom-out">
+      <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">SERVING COFFEE
+        TO THE WORLD</h2>
+      
+        
+      <p>Your Reliable Source of Coffee from Land of the Origin</p>
+              <a href="#contact" class="btn-get-started scrollto">Request Now</a>
+    </div>
+
+
+  </section>
+  
+  
+  <!-- End Hero Section -->
+
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+        <div class="section-header">
+          <h3 class="section-title" style="color: #20c997; font-weight: bolder; display: flex; justify-content:center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">About Us</h3>
+          <span class="section-divider"></span>
+        
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 about-img" data-aos="fade-right" dat-aos-delay="100">
+            <img src="assets/img/coffeePic.jpg" alt="">
+          </div>
+
+          <div class="col-lg-6 content" data-aos="fade-left" dat-aos-delay="100">
+            <h2 >Yibe Coffee Export</h2>
+     
+            <p>
+              Yibe Enterprises is a diversified company that is engaged in Trading, Manufacturing, Real Estate and Export. The export is focused on exporting and promoting Ethiopian coffee. Yibe Enterprises started as a trading company, and over the years moved into manufacturing, real estate and the export business. The trading business deals with Fast Moving Consumer Goods (FMCG), as well as importing and Distribution of various products to the local market in Ethiopia. As demand for our quality coffee soared, we set-up a dedicated branch office at our flagship Head Quarter building at Meskel Flower, Addis Ababa, Ethiopia.
+              We have been exporting diffrrent kinds of oilseeds (Humera sesame seed,Wollega sesame seed and Nigerseeds),pulses(Green mung beans,pinto beans,soyabeans,red kidney beans,whitepea beans,fababeans and chickpeas) and commercial coffees(sidama,Nekempti,Djimma,Limu& yirgacheffee)
+            </p>
+
+
+              
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+
+  
+
+
+
+
+ <!--
+
+  cofeee
+ -->
+
+
+ <section id="coffees">
+  <div class="container" data-aos="fade-up">
+
+    <div class="row">
+
+      <div style="display: flex; flex-direction: center; align-items: center;">
+        
+          <div style="width: 100%; display: flex; justify-content: center; color: #20c997;">
+            <h1> Coffee Sources</h1>
+          </div>
+          
+      
+      </div>
+
+<!--      
+      <div class="col-lg-4 col-md-5 features-img">
+        <img style="border:0; width: 100%; height: 100%" src="assets/img/exportCoffee.webp" alt="" data-aos="fade-right">
+      </div>
+-->      
+
+
+
+
+      <div class="col-lg-12 col-md-12 col-xs-12 bunaContainer">
+
+        <div class="row">
+
+          <div id="yirgacheffee"  style="border: 1px solid rgb(218, 209, 209); margin: 1%; display: flex; flex-direction: column; align-items: center; justify-content: center;" class="col-lg-5 col-md-5 col-xs-5 box bunaSingle" data-aos="fade-up">
+            
+            <div class="imgCoffee">
+
+          
+              <img  data-toggle="modal" data-target="#modalYirgaCheffe" class="imgCoffee"  alt = "Yirgacheffee" width = "1000" height = "300" src="/assets/img/coffeeTypes/YirgaCheffe/yirga3.jpg" alt="">
+              <div class = "coffeeTypeText">Yirgacheffee </div>
+              
+            </div>
+             
+           
+ <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Popup image</button> -->
+
+          
+            <p  class="bunaParagraph">
+              Yirgacheffe is home to the most elusive and complex profiles Ethiopia has to offer. This is the reason why this small zone has carved a profile for itself so well within the global coffee market.
+
+              Yirgacheffe coffee is much sought after for its bright point citric acidity. It’s well-bodied, balanced cup of mocha combined with flowery, spicy elements and an array of fruity flavours gives it a layered and complex wheel of taste. Yirgacheffe is renowned for its washed coffees but is gaining reputation with fruity balanced naturals, as well.
+           </p>
+          
+           
+          </div>
+         
+         
+          <div id="sidama" style="border: 1px solid rgb(218, 209, 209); margin: 1%; display: flex; flex-direction: column; align-items: center; justify-content: center;"  class="col-lg-5 col-md-6 box bunaSingle" data-aos="fade-up">
+            
+            <div class="imgCoffee">
+              <img   data-toggle="modal" data-target="#modalSidama"  class="imgCoffee"  alt = "Yirgacheffee" style="width: 100%;" src="/assets/img/coffeeTypes/Sidama/sidamo2.jfif" alt="">
+              <div class = "coffeeTypeText">Sidama </div>
+            </div>
+            
+           
+            <p  class="bunaParagraph">
+              Sidama coffee is a finely processed, flavored organic Arabica coffee that is almost 95% washed and is harvested in the Sidama region of Ethiopia.
+            
+            </p>
+           
+          </div> 
+         
+         
+          <div id="Nekemeti" style="border: 1px solid rgb(218, 209, 209); margin: 1%; display: flex; flex-direction: column; align-items: center; justify-content: center;"  class="col-lg-5 col-md-6 box bunaSingle" data-aos="fade-up" dat-aos-delay="100">
+            
+
+            <div class="imgCoffee">
+               <img style="width: 100%;"  data-toggle="modal" data-target="#modalNekemeti"  class="imgCoffee"  alt = "Nekemeti"  src="/assets/img/coffeeTypes/Nekemeti Coffee/nekemeti1.jfif">
+              <div class = "coffeeTypeText"> Nekemeti</div>
+            </div>
+
+          
+            <p class="bunaParagraph">
+              Nekemte is a market town in western Ethiopia, lying just over 300k west of Addis Ababa in a region of high rainfall and many hills. Coffee grows in rust-red volcanic soils at altitudes between 1,700�2,200 m.a.s.l. and a typical cup will have a medium body with good acidity, and a fruity finish.
+             
+            </p>
+           
+          </div>
+         
+         
+          <div id="limmu" style="border: 1px solid rgb(218, 209, 209); margin: 1%; display: flex; flex-direction: column; align-items: center; justify-content: center;"  class="col-lg-5 col-md-6 box bunaSingle" data-aos="fade-up" data-aos-delay="100">
+             
+            <div class="imgCoffee">
+              <img style="width: 100%;"  data-toggle="modal" data-target="#modalLimmu"  class="imgCoffee"  alt = "Yirgacheffee"  src="/assets/img/coffeeTypes/Limmu/limmu1.jpg" alt="">
+              <div class = "coffeeTypeText"> Limmu</div>
+            </div>
+
+          
+            <p class="bunaParagraph"> 
+               Limmu is a rugged, mountainous region stretching from south-central to south-western Ethiopia, part of the Oromiya Zone, that produces primarily washed coffees. The coffee beans sourced here have a distinct roundish shape and green colour, and are medium sized.
+               
+            </p>
+            
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section><!-- End Coffee Section -->
+
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-4">
+            <div class="contact-about">
+              <h3>Yibe Coffee Export</h3>
+              <p>You can get us through the following social media</p>
+              <div class="social-links">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="col-lg-3 col-md-4">
+            <div class="info">
+              <div>
+                <i class="bi bi-geo-alt"></i>
+                <p>Yibe trading building, Meskel flower<br>Addis Ababa, Ethiopia</p>
+              </div>
+
+              <div>
+                <i class="bi bi-envelope"></i>
+                <p>yibetrading@gmail.com</p>
+              </div>
+
+              <div>
+                <i class="bi bi-phone"></i>
+                <p>+251 91 451 1143</p>
+              </div>
+
+            </div>
+          </div>
+         
+
+          <div class="col-lg-5 col-md-8">
+            
+        
+          
+
+            <!-- <form action="https://formsubmit.co/yohanesdebebe44@gmail.com" method="POST">
+              <input type="text" name="name" required>
+              <input type="email" name="email" required>
+              <input type="text" class="form-control" name="_subject" id="subject" placeholder="Subject" >
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>             
+              <button type="submit">Send</button>
+         </form> -->
+
+          
+
+            <div class="form">
+
+              <form  action="https://formsubmit.co/yohanesdebebe44@gmail.com" method="post" enctype="text/plain" class="php-email-form">
+                <div class="row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  </div>
+                  <div class="form-group col-lg-6 mt-3 mt-lg-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="_subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send</button></div>
+              </form>
+            </div> 
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+  
+  </main><!-- End #main -->
+
+  
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div  class="col-lg-12 col-md-12 col-xs-12 text-lg-start text-center">
+          <div class="copyright">
+            &copy; Copyright <strong>Yibe Coffee Export</strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!--
+            All the links in the footer should remain intact.
+            You can delete the links only if you purchased the pro version.
+            Licensing information: https://bootstrapmade.com/license/
+            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Avilon
+          -->
+            Designed by <a href="https://www.linkedin.com/in/yohanes-debebe-76024a209/" target="_blank">yohanes</a>
+          </div>
+        </div>
+      
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-chevron-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="index.js"></script>
+
+  <!-- jQuery -->
+  <script src="//code.jquery.com/jquery.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
