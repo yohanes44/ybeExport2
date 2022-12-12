@@ -1,6 +1,7 @@
 
+
 var app = angular.module("app", []);
-app.controller("ctrl", ['$scope', function($scope){
+app.controller("ctrl", ['$scope', '$location','$anchorScroll', function($location, $anchorScroll,  $scope){
 
     $scope.selectedCoffee;
    $scope.coffees = [
@@ -13,6 +14,23 @@ app.controller("ctrl", ['$scope', function($scope){
     $scope.selectedCoffee =  $scope.coffees.filter( (cof) => cof.name == cofName )
    }
 
+   $scope.modalValue = true;
+
+   $scope.clickOutSide = function(){
+     
+    $scope.modalValue = false;
+    //  document.getElementById("footer").click();
+    //  alert("modal close");
+   }
+
+   $scope.gotoBottom = function() {
+    // set the location.hash to the id of
+    // the element you wish to scroll to.
+    $location.hash('bottom');
+
+    // call $anchorScroll()
+    $anchorScroll();
+  };
 
 }]);
 
