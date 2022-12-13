@@ -49,6 +49,42 @@
   align-items: center;
   border: 2px solid red;
 } */
+.tableContainer{
+  width: 100%; 
+  display: grid; 
+  grid-template-columns: 40% 60%; 
+}
+
+.tableLeft{
+  font-weight: bolder;
+}
+.tableRight{
+  font-size: 14px;
+}
+
+.specification{
+  display: flex; 
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tableDetail{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.7%;
+}
+.tableDetail:hover{
+  background-color:#1de099
+}
+
+.coffeeBtnContainer{
+  display: flex; 
+  justify-content: center; 
+  gap: 2%;
+  margin-bottom: 5%;
+}
+
 .bunaSingle{
   
   padding-top: 3%;
